@@ -2,38 +2,176 @@ const CAPITULOS = [
   {
     id: 1,
     numero: "Capítulo I",
-    titulo: "Anécdotas",
+    titulo: "El libro de las anécdotas",
     tituloClase: "cap-titulo--acento",
-    descripcion: "El primer capítulo.",
+    descripcion: "Diego empezará a escribir un libro sobre sus anécdotas.",
     contenido: `
-      <p>En el primer capítulo se nos cuenta que Diego empezará a escribir un libro sobre sus anécdotas. Además, reflexiona sobre cómo se siente, por qué muchas personas creen que los jóvenes ya no leen y por qué considera que ha desperdiciado parte de su talento.</p>
-      <p>Luego habla sobre su libro, especialmente sobre la presentación que realizó y cómo dejó plantada a una chica. Más adelante relata una discusión que tuvo con unos amigos de Pavel acerca de un autor. A partir de ese conflicto, reflexiona sobre la literatura y explica por qué decidió escribir este libro.</p>
-      <p>También cuenta cómo publicó su libro Muchachos Desnudos. Aunque se siente orgulloso de haberlo escrito, considera que algunas páginas son una aberración y siente la necesidad de conocer la opinión sincera de Pavel, aunque esta pueda afectar su impulso creativo.</p>
-      <p>Posteriormente recuerda cómo se declaró a una chica utilizando versos de Pablo Neruda y fue rechazado de la peor manera posible. Mientras regresaba a casa en taxi, reflexionaba sobre lo ocurrido y trataba de entender aquel fracaso amoroso.</p>
-      <p>Después imagina cómo habría sido la situación si las cosas hubieran sucedido de otra forma. En esas reflexiones también describe a Pavel, su apariencia, su forma de vestir y su manera de actuar.</p>
-      <p>Al sentirse menospreciado, conversa con Pavel sobre cómo se siente respecto a la vida y la literatura. Durante la conversación reflexiona sobre la verdadera personalidad de su amigo, que resulta ser muy distinta de la imagen que suele proyectar.</p>
-      <p>Más adelante cuenta cómo conoció a Pavel. Todo comenzó cuando escuchó hablar de un libro que le llamó la atención. Al intentar conseguirlo, Pavel se negó a prestárselo, por lo que acordaron un intercambio, aunque finalmente no cumplió completamente con su parte del trato.</p>
-      <p>Diego también describe su fascinación por la lectura. Suele visitar librerías para hojear libros y descubrir nuevas lecturas. Considera que elegir un libro es casi un ritual y siente emoción, curiosidad y placer al hacerlo. A veces se reprocha no haber sido él quien escribió algunas de las obras que tanto admira.</p>
-      <p>Su padre lo convence de comenzar a hacer ejercicio regalándole unas pesas. Gracias a ello adquiere el hábito de entrenar e intenta persuadirlo para que le permita inscribirse en un gimnasio, argumentando que eso mejorará su autoestima.</p>
-      <p>Posteriormente invita a Pavel a ver una película. Sin embargo, debido a una broma, terminan asistiendo a una presentación de poemas. Después de conversar durante un largo rato, Pavel le regala un libro titulado El hilo negro.</p>
+      <p>En el primer capítulo nos habla que empezará a escribir un libro de sus anécdotas, aparte nos cuenta sobre como se sentía, el porque piensan que los jóvenes ya no leen y de porque desperdiciaba su talento.</p>
     `
   },
   {
     id: 2,
     numero: "Capítulo II",
-    titulo: "La mesa de trabajo",
+    titulo: "La promoción y la chica plantada",
     tituloClase: "",
-    descripcion: "Diego describe su mesa de trabajo y Pavel propone intercambiar un libro robado.",
+    descripcion: "Habla de su libro, su promoción y cómo dejó plantada a una chica.",
     contenido: `
-      <p>Diego describe la organización de su mesa de trabajo, la cual modifica constantemente según sus intereses. También relata una visita de Pavel a su casa, donde este le propone intercambiar un libro robado y expone su peculiar teoría sobre el supuesto «derecho a robar libros». Finalmente, explica las razones por las que abandonó la universidad.</p>
-      <p>Durante un almuerzo familiar, sus padres le insisten en que debe aprovechar mejor su tiempo. Primero intenta aprender a conducir, pero abandona las clases tras reprobar varias veces el examen. Más adelante estudia en una academia preuniversitaria e ingresa a la carrera de Literatura en San Marcos, aunque sigue cuestionándose si realmente es su vocación.</p>
-      <p>Mientras busca películas en Polvos Azules, ayuda a una pareja a elegir algunos títulos y logra llamar la atención de la mujer, a quien le entrega su número telefónico. Sin embargo, la llamada que esperaba nunca llega.</p>
-      <p>Aunque algunos días le cuesta levantarse, mantiene una estricta rutina de ejercicios que ha seguido durante años. Además, convence a Pavel de unirse al gimnasio.</p>
-      <p>Pavel termina agotado y adolorido después de su primer entrenamiento, por lo que culpa a Diego de su malestar. Sin embargo, este le responde que depende de él decidir si continúa o abandona. Con el tiempo, Pavel se adapta al ejercicio, gana motivación y hasta busca participar en competencias.</p>
-      <p>Más adelante, Diego, quien odia los parques debido a experiencias desagradables de su infancia, acepta acompañar a Pavel y a dos universitarias a un parque de diversiones en Surco. La salida termina siendo un desastre porque se marea, vomita y debe ser atendido por paramédicos.</p>
-      <p>Después de varios días recuperándose en casa, Pavel reaparece con una nueva apariencia y comenta que trabaja en una feria de San Isidro. También expresa su deseo de convertirse en profesor, lo que provoca una fuerte discusión entre ambos.</p>
-      <p>Tiempo después, Diego va al cine en el centro de Lima. Allí conoce a una chica muy parecida a Vanessa y terminan viendo juntos una película de Tim Burton. Aunque él se siente confundido por el parecido, ambos conversan de manera natural sobre cine.</p>
-      <p>Al finalizar la función, camina por Miraflores, compra un libro usado de Mario Vargas Llosa que lo inspira a escribir y termina en un bar de Barranco conversando sobre literatura, felicidad, Bukowski y el estoicismo.</p>
+      <p>En el segundo capítulo habla de su libro, en especial de como fue su promoción y como dejó plantada a una chica.</p>
+    `
+  },
+  {
+    id: 3,
+    numero: "Capítulo III",
+    titulo: "La discusión y el libro",
+    tituloClase: "",
+    descripcion: "Una discusión con amigos de Pavel y la decisión de escribir.",
+    contenido: `
+      <p>El tercer capítulo relata como tuvo una discusión con unos amigos de Pavel por un autor de un libro y porque tomó la decisión de escribir este libro.</p>
+    `
+  },
+  {
+    id: 4,
+    numero: "Capítulo IV",
+    titulo: "Muchachos Desnudos",
+    tituloClase: "cap-titulo--acento",
+    descripcion: "Cómo publicó su libro y la necesidad de la opinión de Pavel.",
+    contenido: `
+      <p>El cuarto capítulo el autor nos cuenta de como publicó un libro "Muchacho Desnudos". De como piensa que sus páginas de su libro son una aberración y que necesita la opinión de su amigo Pavel aunque destruya su impulso creativo.</p>
+    `
+  },
+  {
+    id: 5,
+    numero: "Capítulo V",
+    titulo: "Neruda y el rechazo",
+    tituloClase: "",
+    descripcion: "Se declaró con versos de Pablo Neruda y fue rechazado de la peor forma posible.",
+    contenido: `
+      <p>El quinto capítulo relata como se declaró con unos versos de Pablo Neruda y fue rechazado de la peor forma posible, siendo la mejor opción retirarse en el taxi pensaba que ella era una bruja por rechazarlo y porque cuando deseas demorar a la hora de llegar a casa no hay tráfico.</p>
+    `
+  },
+  {
+    id: 6,
+    numero: "Capítulo VI",
+    titulo: "El escenario diferente y Pavel",
+    tituloClase: "cap-titulo--frio",
+    descripcion: "Idealiza un escenario diferente y se centra en cómo lucía, vestía y actuaba Pavel.",
+    contenido: `
+      <p>El sexto capítulo idealiza un escenario completamente diferente de como pudo ese rechazo pudo ser diferente y se centra en Pavel como lucía, vestía y actuaba.</p>
+      <p>Al sentirse menospreciado, Diego charla con Pavel conversando sobre como se siente con la vida reflejando su facción con la literatura. Comentando como es Pavel en realidad, siendo lo contrario que parece.</p>
+      <p>Diego nos cuenta como conoció a Pavel, fue cuando el habló sobre un libro que le terminó interesando y al querer pedírselo se lo negó, haciendo que hagan un intercambio con otro libro que él quería, aunque Pavel no cumpliendo con su parte del trato.</p>
+    `
+  },
+  {
+    id: 7,
+    numero: "Capítulo VII",
+    titulo: "Las librerías y las pesas",
+    tituloClase: "cap-titulo--acento",
+    descripcion: "Diego describe su fascinación con la lectura y cómo su padre lo convenció de hacer ejercicio.",
+    contenido: `
+      <p>Diego describe su fascinación con la lectura, donde suele visitar librerías para hojear y explorar nuevas lecturas. Describe la experiencia de elegir un libro como un acto casi ritual, donde resalta su emoción, curiosidad y placer. Le enfurece no haber llegado a la creación de libros que le llaman la atención, reprochandose.</p>
+      <p>Su padre lo convenció de darle un juego de pesas, así haciendo que empiece con el hábito del ejercicio. Tratando de convencer a su padre de inscribirlo a un gimnasio, diciendo que es para mejorar su autoestima.</p>
+      <p>En el siguiente capítulo Diego le propone ver una película a Pavel, aunque por una broma terminan en una presentación de poemas, charlando para que al final Pavel le regalara un libro titulado "El hilo negro".</p>
+    `
+  },
+  {
+    id: 8,
+    numero: "Capítulo VIII",
+    titulo: "La mesa de trabajo y el libro robado",
+    tituloClase: "cap-titulo--frio",
+    descripcion: "La rutina de la mesa de trabajo, el libro robado de Pavel y el abandono de la universidad.",
+    contenido: `
+      <p>Nos habla de como Diego tiene una especie de rutina o tradición en su mesa de trabajo ya sea poniendo fotos, post-it, etc. Pero combinándolo cada cierto tiempo dependiendo de sus intereses. Además, una de esas noches Pavel fue a cambiar un libro, y Diego nos dice que para cambiar un libro es todo un ritual para él (se aprende todo), Pavel le comenta que el libro es robado y que según él tiene sus razones "El derecho a robar libros" (Una técnica en el que puedes robar unos libros pero si te descubren pagas un sobrecarga). Finalmente nos cuenta el porque dejó la universidad.</p>
+      <p>Nos cuenta como un mediodía sus padres durante el almuerzo hablaban sobre una película derivando la conversación hacia Diego, en donde lo presionaron a hacer algo en las vacaciones ya que dejó la universidad, inscribiéndolo en clases de manejo pero que poco después dejaría por fallar tres veces el examen, posteriormente se inscribió a una academia preuniversitaria, en Letras y después ingresó a la escuela de Literatura de San Marcos pero dudando en que si realmente estaba interesado en su carrera.</p>
+    `
+  },
+  {
+    id: 9,
+    numero: "Capítulo IX",
+    titulo: "Polvos Azules",
+    tituloClase: "",
+    descripcion: "Un viaje imaginario, Polvos Azules y una llamada que nunca llegaría.",
+    contenido: `
+      <p>Nos dice sobre un viaje imaginario que tuvo, en el cual una chica iba delante de él pero él buscaba el pasaje 18 en Polvos Azules, siendo su objetivo adquirir algunas películas piratas, poco después perdió de vista a la chica que se juntó con la multitud pero llegó al lugar que quería, observando en el lugar a una pareja, que igualmente buscaba entre los catálogos buenas películas, él quiso ser cortés y les ayudó, recibiendo halagos de la chica pero que nadie le cree, dándole su número de teléfono, esperando una llamada que nunca llegaría.</p>
+    `
+  },
+  {
+    id: 10,
+    numero: "Capítulo X",
+    titulo: "El gimnasio y Pavel",
+    tituloClase: "cap-titulo--acento",
+    descripcion: "La rutina del gimnasio y Pavel que termina dormido después de entrenar.",
+    contenido: `
+      <p>Nos habla de como en algunos días se le hace difícil levantarse, y que en esos días su apetito es como el de un Dragón de Komodo devorando todo lo que está a su paso, posteriormente se ducha y se dirige al gimnasio en donde entrena como una bestia, teniendo la misma rutina efectiva durante cuatro años, también, dice que animó a Pavel para que entrara al gimnasio y aunque al principio se negó terminó aceptando, combinando la lectura con el esfuerzo físico (leer trotando). Cuando terminaron hablaron sobre el gimnasio de Antistenes (Cinasarges) en donde los hombres entrenaban desnudos y que Pavel pensaba venir así la próxima vez.</p>
+      <p>Es una continuación de la experiencia anterior, en el cual al día siguiente Pavel estaba muy cansado y adolorido por el entrenamiento, echándole la culpa a Diego pero él le dijo que dependía de él si quería seguir o renunciar, pero Pavel volvió al gimnasio a entrenar pero más tarde se llevó una sorpresa para Diego ya que cuando este terminó su rutina fue a ver como le iba a Pavel, y se dio cuenta que se había quedado dormido, días posteriores regresó más motivado, incluso comentándole a Diego que lo inscriba a competencias y haciéndose amigo del Personal Trainer (Alejo) a quien le pidió algunos consejos.</p>
+    `
+  },
+  {
+    id: 11,
+    numero: "Capítulo XI",
+    titulo: "El parque de Surco y Pavel quiere ser profesor",
+    tituloClase: "",
+    descripcion: "Un desastre en el parque y una revelación que arma una pelea bien tensa.",
+    contenido: `
+      <p>En esta parte del libro, el protagonista, que odia los parques por traumas de niño, se deja convencer por su amigo Pavel para ir a un parque de diversiones en Surco de noche con dos universitarias, pero la salida es un desastre total porque se marea horrible, termina vomitando de lo lindo y lo atienden los paramédicos.</p>
+      <p>Después de pasar días enfermo en cama pensando en fútbol y libros, Pavel reaparece de la nada con nuevo look diciendo que trabaja en una feria de San Isidro y que quiere ser profesor, lo que arma una pelea bien tensa porque el narrador no le cree su cuento de intelectual.</p>
+      <p>Luego, el protagonista va al cine de la de Lima, se queda sin entrada y se topa con una chica idéntica a Vanessa; ven una peli de Tim Burton juntos y, aunque él está recontra confundido por el parecido, hablan de cine de lo más normal.</p>
+      <p>Al final, se va caminando por Miraflores, se compra un libro de Vargas Llosa usado que lo inspira a escribir y termina en un bar antiguo de Barranco conversando y tomando algo mientras debaten sobre literatura, la felicidad, Bukowski y lo que es ser una persona estoica.</p>
+    `
+  },
+  {
+    id: 12,
+    numero: "Capítulo XII",
+    titulo: "La heladería y Galarza",
+    tituloClase: "cap-titulo--frio",
+    descripcion: "Diego y Pavel en una heladería. Luego Diego consigue una cita con Galarza.",
+    contenido: `
+      <p>Diego y Pavel se encuentran en una heladería hablan de Paco y Pavel le cuestiona el desagrado de Diego con sus bromas con el profesor pero después hacen un trato y en vez de darle la caja con libros solo le da la revista ya que habían hablado si publicará o no la revista, luego Diego se cuestiona de como es él.</p>
+      <p>Diego después de la biblioteca consiguió una cita con Galarza el hombre pensó y comenzó a decir algunos de sus discursos luego lo comparó con Pavel era burlón también pero era grosero y simplón. Lo que recuerda que Pavel se le dijo que él no tuvo ninguna relación amorosa. Después investigan a Giacomo Casanova y sus libros.</p>
+      <p>Nos cuenta su desventura con una chica de una quinta debido a que él le enviaba cartas de amor pero su hermana mayor lo engañó y se burló, la quinta de él o algo así. Pervivió con su amiga que gustaba de Pavel. Su experiencia para ser feliz. Y finalmente como estuvo con su tía.</p>
+    `
+  },
+  {
+    id: 13,
+    numero: "Capítulo XIII",
+    titulo: "Casanova y la librería",
+    tituloClase: "",
+    descripcion: "Diego lejos de ser como Casanova. Su tío le deja su estante de libros.",
+    contenido: `
+      <p>Comienza explicando las últimas líneas. Dice que está muy lejos de ser como Casanova y como él quiere escribir esta obra. También dice que su tío se le dejó su estante con sus libros antiguos y muy variados ordenados y Pavel le dice para que ocupe el trabajo de la librería ya que él ya tiene otro trabajo.</p>
+      <p>Nos cuenta que una semana después comenzó a trabajar también que no sabe que nuevo trabajo tiene Pavel pero cree que puede ser algo relacionado con la música por sus comentarios y unas anécdotas. Pavel habla un poco del carácter de Pavel. Después de su encuentro con Galarza quien fue ahí para darles sus libros para la reseña que va a hacer Diego y hablaron un poco.</p>
+    `
+  },
+  {
+    id: 14,
+    numero: "Capítulo XIV",
+    titulo: "La reseña y la apuesta",
+    tituloClase: "cap-titulo--acento",
+    descripcion: "Diego hace la reseña, Pavel lo convence de publicarla y hacen una apuesta.",
+    contenido: `
+      <p>Comienza con Diego y Pavel hablando del encuentro de Diego con Galarza y Pavel convence a Diego que haga la reseña, Diego lo hace y se lo envía. Diego está nervioso pero Pavel le dijo que está bien y que ya no hablen de eso, discutieron cual de los dos está abrumado.</p>
+      <p>Se fueron a un bar, ahí como Diego se había aburrido Pavel le hizo una apuesta que si lo publicaban que Diego y Ailín van a bailar en la universidad, de lo contrario si no lo publicaban Pavel iba a bailar en frente de todos. Y luego Pavel le dijo una grosería sobre Nietzsche y como Pavel con 22 años (la mitad de Nietzsche no hizo nada con su vida).</p>
+    `
+  },
+  {
+    id: 15,
+    numero: "Capítulo XV",
+    titulo: "La reseña publicada y el baile",
+    tituloClase: "",
+    descripcion: "Pavel se siente mal. La reseña se publica y Diego debe bailar en un festival.",
+    contenido: `
+      <p>Pavel se siente mal después de beber demasiado y escucha una antigua novela romántica escrita por Diego. Más tarde, una reseña de Diego es publicada y, por una apuesta, debe bailar en un festival donde conoce a una chica que le gusta. Aunque no le gusta el teatro, la acompaña a una función, pero su actitud crítica provoca un conflicto. Tras disculparse, mejora su relación con ella y continúa publicando su revista.</p>
+    `
+  },
+  {
+    id: 16,
+    numero: "Capítulo XVI",
+    titulo: "Halloween y la Familia Addams",
+    tituloClase: "cap-titulo--frio",
+    descripcion: "Una fiesta de Halloween, Pavel conoce a una chica y pierde su trabajo como profesor.",
+    contenido: `
+      <p>Tiempo después, Diego, Pavel y la chica participan en una fiesta de Halloween disfrazados de la Familia Addams. Allí, Pavel conoce a una joven disfrazada de Pippi Calzaslargas. Ambos conectan por experiencias personales, se enamoran y descubren que estudian en la misma universidad. Mientras Diego encuentra el amor y madura, Pavel inicia una nueva relación, aunque pierde su trabajo como profesor debido a sus opiniones.</p>
+      <div class="sep">* * *</div>
+      <p style="text-align:center; font-family: var(--fuente-display); font-style:italic; color: rgba(26,21,16,.45); font-size:.95rem;">Fin</p>
     `
   }
 ];
